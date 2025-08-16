@@ -104,6 +104,16 @@ const Navbar: React.FC<NavbarProps> = ({ scrollY }) => {
               Panel
             </a>
 
+            {/* Cafe Button with Special Effects */}
+            <a 
+              href="https://muzikhanecafe.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative overflow-hidden bg-gradient-to-r from-amber-600 via-orange-500 to-red-600 text-white px-6 py-2 rounded-full font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-lg before:absolute before:inset-0 before:bg-white before:opacity-20 before:translate-x-[-100%] hover:before:translate-x-[100%] before:transition-transform before:duration-700 before:skew-x-12"
+            >
+              Cafe
+            </a>
+
             <a 
               href="https://wa.me/905345671010" 
               target="_blank" 
@@ -183,6 +193,16 @@ const Navbar: React.FC<NavbarProps> = ({ scrollY }) => {
                 className="relative overflow-hidden bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 text-white py-3 text-lg font-medium rounded-full transition-all text-center transform hover:scale-105 before:absolute before:inset-0 before:bg-white before:opacity-20 before:translate-x-[-100%] hover:before:translate-x-[100%] before:transition-transform before:duration-700 before:skew-x-12"
               >
                 Panel
+              </a>
+
+              {/* Mobile Cafe Button */}
+              <a 
+                href="https://muzikhanecafe.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative overflow-hidden bg-gradient-to-r from-amber-600 via-orange-500 to-red-600 text-white py-3 text-lg font-medium rounded-full transition-all text-center transform hover:scale-105 before:absolute before:inset-0 before:bg-white before:opacity-20 before:translate-x-[-100%] hover:before:translate-x-[100%] before:transition-transform before:duration-700 before:skew-x-12"
+              >
+                Cafe
               </a>
 
               <a 

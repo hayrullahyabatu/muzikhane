@@ -114,6 +114,16 @@ const Navbar: React.FC<NavbarProps> = ({ scrollY }) => {
               Cafe
             </a>
 
+            {/* Event Button with Special Effects */}
+            <a 
+              href="https://muzikhanevent.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative overflow-hidden text-white px-6 py-2 rounded-full font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-lg before:absolute before:inset-0 before:bg-white before:opacity-20 before:translate-x-[-100%] hover:before:translate-x-[100%] before:transition-transform before:duration-700 before:skew-x-12"
+              style={{ backgroundColor: '#00ff5e' }}
+            >
+              Event
+            </a>
             <a 
               href="https://wa.me/905345671010" 
               target="_blank" 
@@ -205,6 +215,16 @@ const Navbar: React.FC<NavbarProps> = ({ scrollY }) => {
                 Cafe
               </a>
 
+              {/* Mobile Event Button */}
+              <a 
+                href="https://muzikhanevent.netlify.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative overflow-hidden text-white py-3 text-lg font-medium rounded-full transition-all text-center transform hover:scale-105 before:absolute before:inset-0 before:bg-white before:opacity-20 before:translate-x-[-100%] hover:before:translate-x-[100%] before:transition-transform before:duration-700 before:skew-x-12"
+                style={{ backgroundColor: '#00ff5e' }}
+              >
+                Event
+              </a>
               <a 
                 href="https://wa.me/905345671010" 
                 target="_blank" 
